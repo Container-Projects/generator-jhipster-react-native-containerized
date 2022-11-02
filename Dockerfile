@@ -15,4 +15,4 @@ ENV PATH $PATH:/usr/bin
 WORKDIR "/home/generator/app"
 VOLUME ["/home/generator/app"]
 
-CMD ["jhipster", " --blueprints react-native"]
+CMD ["jhipster", "--blueprints", "react-native"]
