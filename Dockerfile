@@ -1,8 +1,6 @@
-FROM ghcr.io/container-projects/node-14-npm-yo-containerized:master
+FROM ghcr.io/container-projects/containerized-jhipster-generator-template:main
 
 RUN npm install -g generator-jhipster-react-native eas-cli
-
-RUN npm install -g generator-jhipster
 
 RUN \
   # configure the "generator" user
