@@ -1,5 +1,7 @@
 FROM ghcr.io/container-projects/containerized-jhipster-generator-template:main
 
+USER root
+
 RUN npm install -g generator-jhipster-react-native eas-cli
 
 RUN \
