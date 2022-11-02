@@ -2,6 +2,8 @@ FROM ghcr.io/container-projects/node-14-npm-yo-containerized:master
 
 RUN npm install -g generator-jhipster-react-native eas-cli
 
+RUN npm install -g generator-jhipster
+
 RUN \
   # configure the "generator" user
   groupadd generator && \
